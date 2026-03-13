@@ -1,0 +1,7 @@
+my_dbt_project:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: /Users/guoxuchen/ai-data-copilot/ai-data-copilot/dbt_project/data/warehouse/pipeline.duckdb
+      threads: 4

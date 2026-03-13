@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: stg_menu
+    description: "Raw transaction data loaded from CSV"
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: name
+        tests:
+          - not_null
+      - name: amount
+        tests:
+          - not_null
+      - name: event_date
+        tests:
+          - not_null

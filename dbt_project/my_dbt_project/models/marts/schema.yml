@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: menu_summary
+    description: "Aggregated summary by event_date"
+    columns:
+      - name: event_date
+        tests:
+          - not_null
+          - unique
