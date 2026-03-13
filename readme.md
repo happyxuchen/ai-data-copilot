@@ -151,7 +151,7 @@ The Streamlit UI allows users to:
 
 ## How to Run the Project
 
-### 1. Clone Repository
+1. Clone Repository
 
 ```bash
 git clone https://github.com/happyxuchen/ai-data-copilot.git
